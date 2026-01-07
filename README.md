@@ -22,9 +22,9 @@ We present **MAI-UI**, a family of foundation GUI agents spanning the full spect
 
 ## 📰 News
 
-* **[2025-12-29]** 🏆 **State-of-the-Art Performance**: MAI-UI achieves a 41.7% success rate on the [MobileWorld](https://tongyi-mai.github.io/MobileWorld/#leaderboard) benchmark, setting a new record for end-to-end model performance!
+* **[2025-12-29]** 🏆 **SOTA Performance**: MAI-UI achieves a 41.7% success rate on the [MobileWorld](https://tongyi-mai.github.io/MobileWorld/#leaderboard) benchmark, setting a new record for end-to-end model performance!
 * **[2025-12-29]** 📄 **Technical Report & Website**: Our technical report is now available on [arXiv](https://arxiv.org/abs/2512.22047), and the official project [website](https://tongyi-mai.github.io/MAI-UI/) is live.
-* **[2025-12-29]** 🤗 **Model Release**: We are excited to release the weights for **MAI-UI-8B** and **MAI-UI-2B** on Hugging Face.
+* **[2025-12-29]** 🤗 **Model Release**: We are excited to release the weights for [MAI-UI-8B](https://huggingface.co/Tongyi-MAI/MAI-UI-8B) and [MAI-UI-2B](https://huggingface.co/Tongyi-MAI/MAI-UI-2B) on Hugging Face.
 
 ## 📑 Table of Contents
 
