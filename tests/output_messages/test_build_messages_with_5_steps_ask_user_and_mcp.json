@@ -31,7 +31,7 @@
     "content": [
       {
         "type": "text",
-        "text": "<thinking>\nNeed to know user's cuisine preference\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"ask_user\",\"question\":\"What type of cuisine do you prefer?\"}}\n</tool_call>"
+        "text": "<thinking>\nNeed to know user's cuisine preference\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"ask_user\",\"text\":\"What type of cuisine do you prefer?\"}}\n</tool_call>"
       }
     ]
   },
@@ -78,7 +78,7 @@
     "content": [
       {
         "type": "text",
-        "text": "<thinking>\nNeed location for weather info\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"ask_user\",\"question\":\"Which city should I check the weather for?\"}}\n</tool_call>"
+        "text": "<thinking>\nNeed location for weather info\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"ask_user\",\"text\":\"Which city should I check the weather for?\"}}\n</tool_call>"
       }
     ]
   },

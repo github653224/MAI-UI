@@ -33,7 +33,7 @@
     "content": [
       {
         "type": "text",
-        "text": "<thinking>\nNeed user input\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"ask_user\",\"question\":\"What's your name?\"}}\n</tool_call>"
+        "text": "<thinking>\nNeed user input\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"ask_user\",\"text\":\"What's your name?\"}}\n</tool_call>"
       }
     ]
   },

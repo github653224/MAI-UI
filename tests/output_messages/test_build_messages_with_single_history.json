@@ -33,7 +33,7 @@
     "content": [
       {
         "type": "text",
-        "text": "<thinking>\nOpening settings\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"tap\",\"coordinate\":[499,499]}}\n</tool_call>"
+        "text": "<thinking>\nOpening settings\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[499,499]}}\n</tool_call>"
       }
     ]
   },

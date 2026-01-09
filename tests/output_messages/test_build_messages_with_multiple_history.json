@@ -22,7 +22,7 @@
     "content": [
       {
         "type": "text",
-        "text": "<thinking>\nStep 0\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"tap\",\"coordinate\":[499,499]}}\n</tool_call>"
+        "text": "<thinking>\nStep 0\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[499,499]}}\n</tool_call>"
       }
     ]
   },
@@ -42,7 +42,7 @@
     "content": [
       {
         "type": "text",
-        "text": "<thinking>\nStep 1\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"tap\",\"coordinate\":[499,499]}}\n</tool_call>"
+        "text": "<thinking>\nStep 1\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[499,499]}}\n</tool_call>"
       }
     ]
   },
@@ -62,7 +62,7 @@
     "content": [
       {
         "type": "text",
-        "text": "<thinking>\nStep 2\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"tap\",\"coordinate\":[499,499]}}\n</tool_call>"
+        "text": "<thinking>\nStep 2\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[499,499]}}\n</tool_call>"
       }
     ]
   },

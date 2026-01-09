@@ -113,14 +113,14 @@ class TestBuildMessages:
             screenshot=create_dummy_image(color=(255, 0, 0)),
             accessibility_tree=None,
             prediction="<thinking>Opening settings</thinking><tool_call>{...}</tool_call>",
-            action={"action": "tap", "coordinate": [0.5, 0.5]},
+            action={"action": "click", "coordinate": [0.5, 0.5]},
             conclusion="",
             thought="Opening settings",
             step_index=0,
             agent_type="MAIMobileAgent",
             model_name="test-model",
             screenshot_bytes=image_to_bytes(create_dummy_image(color=(255, 0, 0))),
-            structured_action={"action_json": {"action": "tap", "coordinate": [0.5, 0.5]}}
+            structured_action={"action_json": {"action": "click", "coordinate": [0.5, 0.5]}}
         )
         agent.traj_memory.steps.append(step1)
         agent.traj_memory.task_goal = instruction
@@ -155,14 +155,14 @@ class TestBuildMessages:
                 screenshot=create_dummy_image(color=(i*80, 0, 0)),
                 accessibility_tree=None,
                 prediction=f"<thinking>Step {i}</thinking><tool_call>{{...}}</tool_call>",
-                action={"action": "tap", "coordinate": [0.5, 0.5]},
+                action={"action": "click", "coordinate": [0.5, 0.5]},
                 conclusion="",
                 thought=f"Step {i}",
                 step_index=i,
                 agent_type="MAIMobileAgent",
                 model_name="test-model",
                 screenshot_bytes=image_to_bytes(create_dummy_image(color=(i*80, 0, 0))),
-                structured_action={"action_json": {"action": "tap", "coordinate": [0.5, 0.5]}}
+                structured_action={"action_json": {"action": "click", "coordinate": [0.5, 0.5]}}
             )
             agent.traj_memory.steps.append(step)
         
@@ -300,7 +300,7 @@ class TestBuildMessages:
                 "mcp_response": None
             },
             {
-                "action": {"action": "ask_user", "question": "What type of cuisine do you prefer?"},
+                "action": {"action": "ask_user", "text": "What type of cuisine do you prefer?"},
                 "thought": "Need to know user's cuisine preference",
                 "ask_user_response": "I prefer Italian cuisine",
                 "mcp_response": None
@@ -312,7 +312,7 @@ class TestBuildMessages:
                 "mcp_response": "Found 3 Italian restaurants: La Pasta, Pizza Roma, Trattoria"
             },
             {
-                "action": {"action": "ask_user", "question": "Which city should I check the weather for?"},
+                "action": {"action": "ask_user", "text": "Which city should I check the weather for?"},
                 "thought": "Need location for weather info",
                 "ask_user_response": "Check weather in San Francisco",
                 "mcp_response": None
@@ -399,14 +399,14 @@ class TestBuildMessages:
             screenshot=create_dummy_image(color=(255, 0, 0)),
             accessibility_tree=None,
             prediction="<thinking>Need user input</thinking><tool_call>{...}</tool_call>",
-            action={"action": "ask_user", "question": "What's your name?"},
+            action={"action": "ask_user", "text": "What's your name?"},
             conclusion="",
             thought="Need user input",
             step_index=0,
             agent_type="MAIMobileAgent",
             model_name="test-model",
             screenshot_bytes=image_to_bytes(create_dummy_image(color=(255, 0, 0))),
-            structured_action={"action_json": {"action": "ask_user", "question": "What's your name?"}},
+            structured_action={"action_json": {"action": "ask_user", "text": "What's your name?"}},
             ask_user_response="My name is Alice"
         )
         agent.traj_memory.steps.append(step)
